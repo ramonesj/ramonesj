@@ -194,17 +194,41 @@
 
 ---
 
-<!-- ESTADÍSTICAS -->
+<!-- MÉTRICAS PROFESIONALES -->
 <div align="center">
 
-## 📊 GitHub Stats
+## 📊 Métricas Profesionales
 
-<img src="https://github-readme-stats.vercel.app/api?username=ramonesj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=00C7B7&icon_color=FF9900&bg_color=0d1117&text_color=c9d1d9" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramonesj&layout=compact&theme=tokyonight&hide_border=true&title_color=00C7B7&bg_color=0d1117&text_color=c9d1d9" width="40%"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ramonesj&theme=tokyonight&hide_border=true&ring=FF9900&fire=FF9900&currStreakLabel=00C7B7&background=0d1117&sideLabels=c9d1d9&dates=8b949e" width="55%"/>
+<table>
+<tr>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/AWS_Certifications-3-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+<br/><sub><b>Certificaciones AWS</b></sub>
+</td>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/Sophos_Architect-2-0066CC?style=for-the-badge&logo=sophos&logoColor=white"/>
+<br/><sub><b>Sophos Architect</b></sub>
+</td>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/Google_Cloud-6-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<br/><sub><b>GCP Skill Badges</b></sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/Training_Badges-16+-00C7B7?style=for-the-badge&logo=aws&logoColor=white"/>
+<br/><sub><b>AWS Training</b></sub>
+</td>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/Dell_DCSE-457701-007DB8?style=for-the-badge&logo=dell&logoColor=white"/>
+<br/><sub><b>Hardware Expert</b></sub>
+</td>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/Multi_Cloud-Expert-9B62DC?style=for-the-badge&logo=terraform&logoColor=white"/>
+<br/><sub><b>Cloud Architecture</b></sub>
+</td>
+</tr>
+</table>
 
 </div>
 
