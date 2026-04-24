@@ -124,6 +124,28 @@ pasión:    Innovación tecnológica y mejora continua
 ---
 
 <!-- ============================================================ -->
+<!--           CERTIFICACIONES ADICIONALES                        -->
+<!-- ============================================================ -->
+
+## 📜 Otras Certificaciones
+
+<div align="center">
+
+[![Scrum Foundation](https://img.shields.io/badge/Scrum_Foundation_Professional-SFPC-6DB33F?style=for-the-badge&logo=scrumalliance&logoColor=white)](https://www.certiprof.com)
+[![Dell DCSE](https://img.shields.io/badge/Dell_DCSE-Certified_Systems_Expert-007DB8?style=for-the-badge&logo=dell&logoColor=white)](https://www.dell.com)
+[![Dell Gold Support](https://img.shields.io/badge/Dell_Technical_Support-Gold_Hardware_%26_Software-007DB8?style=for-the-badge&logo=dell&logoColor=white)](https://www.dell.com)
+
+| Certificación | Emisor | ID / Nivel |
+|:---|:---:|:---:|
+| Scrum Foundation Professional Certificate | CertiProf | SFPC |
+| Dell DCSE — Certified Systems Expert | Dell Technologies | ID: 457701 |
+| Dell Technical Support Gold — Hardware & Software | Dell Technologies | ID: 457701 |
+
+</div>
+
+---
+
+<!-- ============================================================ -->
 <!--               TECNOLOGÍAS Y HERRAMIENTAS                     -->
 <!-- ============================================================ -->
 
@@ -144,6 +166,14 @@ pasión:    Innovación tecnológica y mejora continua
 **🐧 Sistemas Operativos**
 
 [![SUSE Linux](https://img.shields.io/badge/SUSE_Linux-73BA25?style=for-the-badge&logo=suse&logoColor=white)](https://www.suse.com)
+
+**🖥️ Hardware**
+
+[![Dell Technologies](https://img.shields.io/badge/Dell_Technologies-007DB8?style=for-the-badge&logo=dell&logoColor=white)](https://www.dell.com)
+
+**📋 Metodologías**
+
+[![Scrum](https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge&logo=scrumalliance&logoColor=white)](https://www.certiprof.com)
 
 </div>
 
