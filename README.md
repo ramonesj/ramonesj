@@ -66,7 +66,7 @@ pasión:    Innovación tecnológica y mejora continua
     </td>
     <td align="center">
       <a href="https://skillsprofile.skillbuilder.aws/user/jose-ramones/certification-badges">
-        <img src="https://images.credly.com/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" width="140" alt="AWS Well-Architected Proficient"/>
+        <img src="https://images.credly.com/images/8d67bbf4-128b-4141-b5f1-1bc61bbfbaa6/image.png" width="140" alt="AWS Well-Architected Proficient"/>
       </a>
       <br/><sub><b>Well-Architected</b></sub>
       <br/><sub>Proficient</sub>
