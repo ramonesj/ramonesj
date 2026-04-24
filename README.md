@@ -30,7 +30,6 @@
 ```yaml
 nombre:    José Ramones Moreno
 rol:       Arquitecto de Soluciones Cloud AWS
-empresa:   Cibernética Punto Fijo
 enfoque:   Diseño y optimización de infraestructuras cloud
 framework: AWS Well-Architected Framework
 seguridad: Sophos Firewall & Endpoint Architect
