@@ -50,10 +50,10 @@ pasión:    Innovación tecnológica y mejora continua
   <img src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" width="160" alt="AWS Certified Cloud Practitioner"/>
 </a>
 
-| Certificación | Nivel | Válida hasta |
-|:---|:---:|:---:|
-| AWS Certified Solutions Architect | Associate | Julio 2027 |
-| AWS Certified Cloud Practitioner | Foundational | Julio 2027 |
+| Certificación | Nivel |
+|:---|:---:|
+| AWS Certified Solutions Architect | Associate |
+| AWS Certified Cloud Practitioner | Foundational |
 
 </div>
 
