@@ -1,0 +1,250 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Fondo degradado espacial -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#0a1628;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Glow azul AWS -->
+    <filter id="glowBlue" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow naranja AWS -->
+    <filter id="glowOrange" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow texto -->
+    <filter id="glowText" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow suave texto desc -->
+    <filter id="glowSoft">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Gradiente texto principal -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C7B7"/>
+      <stop offset="50%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#FF9900"/>
+    </linearGradient>
+
+    <!-- Gradiente línea decorativa -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#0078D4;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#00C7B7;stop-opacity:1"/>
+      <stop offset="80%" style="stop-color:#FF9900;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0"/>
+    </linearGradient>
+
+    <!-- Gradiente orbe izquierdo -->
+    <radialGradient id="orbeLeft" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0078D4;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#0078D4;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Gradiente orbe derecho -->
+    <radialGradient id="orbeRight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FF9900;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#FF9900;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Gradiente orbe centro -->
+    <radialGradient id="orbCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00C7B7;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#00C7B7;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fondo base -->
+  <rect width="900" height="280" fill="url(#bgGrad)"/>
+
+  <!-- Orbes de luz de fondo -->
+  <ellipse cx="120" cy="140" rx="200" ry="180" fill="url(#orbeLeft)">
+    <animate attributeName="rx" values="200;230;200" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse cx="780" cy="140" rx="200" ry="180" fill="url(#orbeRight)">
+    <animate attributeName="rx" values="200;240;200" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse cx="450" cy="140" rx="250" ry="150" fill="url(#orbCenter)">
+    <animate attributeName="ry" values="150;180;150" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Grid de puntos (efecto tech) -->
+  <g opacity="0.15">
+    <line x1="0" y1="70" x2="900" y2="70" stroke="#0078D4" stroke-width="0.5" stroke-dasharray="2,40"/>
+    <line x1="0" y1="140" x2="900" y2="140" stroke="#0078D4" stroke-width="0.5" stroke-dasharray="2,40"/>
+    <line x1="0" y1="210" x2="900" y2="210" stroke="#0078D4" stroke-width="0.5" stroke-dasharray="2,40"/>
+    <line x1="150" y1="0" x2="150" y2="280" stroke="#0078D4" stroke-width="0.5" stroke-dasharray="2,40"/>
+    <line x1="300" y1="0" x2="300" y2="280" stroke="#0078D4" stroke-width="0.5" stroke-dasharray="2,40"/>
+    <line x1="450" y1="0" x2="450" y2="280" stroke="#0078D4" stroke-width="0.5" stroke-dasharray="2,40"/>
+    <line x1="600" y1="0" x2="600" y2="280" stroke="#0078D4" stroke-width="0.5" stroke-dasharray="2,40"/>
+    <line x1="750" y1="0" x2="750" y2="280" stroke="#0078D4" stroke-width="0.5" stroke-dasharray="2,40"/>
+  </g>
+
+  <!-- Estrellas estáticas pequeñas -->
+  <g fill="white">
+    <circle cx="45" cy="20" r="1" opacity="0.6"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="55" r="1.2" opacity="0.8"><animate attributeName="opacity" values="0.8;0.3;0.8" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="30" r="0.8" opacity="0.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="310" cy="15" r="1" opacity="0.7"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="40" r="1.5" opacity="0.9"><animate attributeName="opacity" values="0.9;0.4;0.9" dur="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="22" r="0.8" opacity="0.6"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="35" r="1.2" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="18" r="1" opacity="0.5"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="45" r="1.3" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="870" cy="25" r="0.9" opacity="0.6"><animate attributeName="opacity" values="0.6;1;0.6" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="60" cy="240" r="1" opacity="0.5"><animate attributeName="opacity" values="0.5;0.9;0.5" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="260" r="1.2" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="350" cy="255" r="0.8" opacity="0.6"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="550" cy="265" r="1" opacity="0.8"><animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="250" r="1.3" opacity="0.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="260" r="0.9" opacity="0.7"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Partículas flotantes azul -->
+  <g filter="url(#glowBlue)">
+    <circle cx="80" cy="100" r="3" fill="#0078D4" opacity="0.9">
+      <animate attributeName="cy" values="100;80;100" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.4;0.9" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="820" cy="160" r="2.5" fill="#0078D4" opacity="0.8">
+      <animate attributeName="cy" values="160;140;160" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="220" r="2" fill="#00C7B7" opacity="0.7">
+      <animate attributeName="cy" values="220;200;220" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="60" r="3" fill="#00C7B7" opacity="0.8">
+      <animate attributeName="cy" values="60;40;60" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Partículas flotantes naranja -->
+  <g filter="url(#glowOrange)">
+    <circle cx="750" cy="200" r="3" fill="#FF9900" opacity="0.9">
+      <animate attributeName="cy" values="200;180;200" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.4;0.9" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="170" r="2.5" fill="#FF9900" opacity="0.7">
+      <animate attributeName="cy" values="170;150;170" dur="5.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="860" cy="120" r="2" fill="#FF9900" opacity="0.8">
+      <animate attributeName="cy" values="120;100;120" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Línea decorativa superior -->
+  <rect x="0" y="3" width="900" height="2" fill="url(#lineGrad)" opacity="0.8"/>
+
+  <!-- Línea decorativa inferior -->
+  <rect x="0" y="275" width="900" height="2" fill="url(#lineGrad)" opacity="0.8"/>
+
+  <!-- Línea central animada -->
+  <line x1="100" y1="175" x2="800" y2="175" stroke="url(#lineGrad)" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Texto principal con glow -->
+  <text x="450" y="115"
+    font-family="'Segoe UI', Arial, sans-serif"
+    font-size="46"
+    font-weight="700"
+    text-anchor="middle"
+    fill="url(#textGrad)"
+    filter="url(#glowText)"
+    letter-spacing="2">
+    José Ramones Moreno
+    <animate attributeName="opacity" values="1;0.85;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Subtítulo rol -->
+  <text x="450" y="155"
+    font-family="'Segoe UI', Arial, sans-serif"
+    font-size="17"
+    font-weight="400"
+    text-anchor="middle"
+    fill="#00C7B7"
+    filter="url(#glowSoft)"
+    letter-spacing="3">
+    ☁️  CLOUD SOLUTIONS ARCHITECT
+  </text>
+
+  <!-- Badges de tecnología en la parte inferior -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle">
+
+    <!-- AWS -->
+    <rect x="195" y="192" width="70" height="22" rx="11" fill="#FF9900" opacity="0.15"/>
+    <rect x="195" y="192" width="70" height="22" rx="11" fill="none" stroke="#FF9900" stroke-width="1" opacity="0.8"/>
+    <text x="230" y="207" fill="#FF9900">⬡ AWS</text>
+
+    <!-- Google Cloud -->
+    <rect x="278" y="192" width="100" height="22" rx="11" fill="#4285F4" opacity="0.15"/>
+    <rect x="278" y="192" width="100" height="22" rx="11" fill="none" stroke="#4285F4" stroke-width="1" opacity="0.8"/>
+    <text x="328" y="207" fill="#4285F4">☁ Google Cloud</text>
+
+    <!-- Sophos -->
+    <rect x="391" y="192" width="75" height="22" rx="11" fill="#0066CC" opacity="0.15"/>
+    <rect x="391" y="192" width="75" height="22" rx="11" fill="none" stroke="#0066CC" stroke-width="1" opacity="0.8"/>
+    <text x="428" y="207" fill="#6699FF">🛡 Sophos</text>
+
+    <!-- Docker -->
+    <rect x="479" y="192" width="70" height="22" rx="11" fill="#2496ED" opacity="0.15"/>
+    <rect x="479" y="192" width="70" height="22" rx="11" fill="none" stroke="#2496ED" stroke-width="1" opacity="0.8"/>
+    <text x="514" y="207" fill="#2496ED">🐳 Docker</text>
+
+    <!-- Terraform -->
+    <rect x="562" y="192" width="85" height="22" rx="11" fill="#7B42BC" opacity="0.15"/>
+    <rect x="562" y="192" width="85" height="22" rx="11" fill="none" stroke="#7B42BC" stroke-width="1" opacity="0.8"/>
+    <text x="604" y="207" fill="#9B62DC">⬡ Terraform</text>
+
+    <!-- Kubernetes -->
+    <rect x="660" y="192" width="90" height="22" rx="11" fill="#326CE5" opacity="0.15"/>
+    <rect x="660" y="192" width="90" height="22" rx="11" fill="none" stroke="#326CE5" stroke-width="1" opacity="0.8"/>
+    <text x="705" y="207" fill="#326CE5">⎈ Kubernetes</text>
+
+  </g>
+
+  <!-- Línea separadora badges -->
+  <line x1="190" y1="188" x2="755" y2="188" stroke="#0078D4" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Contador de certificaciones -->
+  <text x="450" y="248"
+    font-family="'Segoe UI', Arial, sans-serif"
+    font-size="12"
+    text-anchor="middle"
+    fill="#8b949e"
+    letter-spacing="4">
+    AWS CERTIFIED  ·  SOPHOS ARCHITECT  ·  GOOGLE CLOUD  ·  DELL DCSE
+  </text>
+
+</svg>

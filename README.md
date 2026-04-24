@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:0078D4,60:00C7B7,100:FF9900&height=280&section=header&text=José%20Ramones%20Moreno&fontSize=48&fontColor=ffffff&fontAlignY=42&desc=☁️%20Cloud%20Solutions%20Architect%20%7C%20AWS%20%7C%20Google%20Cloud%20%7C%20Sophos&descAlignY=62&descSize=16&animation=twinkling&stroke=0078D4&strokeWidth=2" width="100%"/>
+<img src="https://raw.githubusercontent.com/ramonesj/ramonesj/main/banner.svg" width="100%" alt="José Ramones Moreno - Cloud Solutions Architect"/>
 
 <br/>
 
