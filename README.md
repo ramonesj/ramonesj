@@ -19,30 +19,27 @@
 ---
 
 <!-- SOBRE MÍ -->
-<img src="https://raw.githubusercontent.com/ramonesj/ramonesj/main/divider.svg" width="100%"/>
-
 <div align="center">
 
-## `< Sobre mí />`
+## 👨‍💻 Sobre mí
 
-</div>
+<br/>
 
-```yaml
-╔══════════════════════════════════════════════════════════════╗
-║  👤  nombre:    José Ramones Moreno                          ║
-║  💼  rol:       Arquitecto de Soluciones Cloud AWS           ║
-║  🎯  enfoque:   Diseño y optimización de infraestructuras    ║
-║  🏗️  framework: AWS Well-Architected Framework               ║
-║  🔐  seguridad: Sophos Firewall & Endpoint Architect         ║
-║  🖥️  hardware:  Dell Certified Systems Expert · ID: 457701   ║
-║  🚀  pasión:    Innovación tecnológica y mejora continua     ║
-╚══════════════════════════════════════════════════════════════╝
-```
+🏗️ **Arquitecto de Soluciones Cloud AWS** con experiencia en diseño y optimización de infraestructuras
+<br/>
+🔐 **Sophos Firewall & Endpoint Architect** &nbsp;·&nbsp; 🖥️ **Dell Certified Systems Expert** ID: 457701
+<br/>
+🚀 Apasionado por la **innovación tecnológica** y la mejora continua en la nube
 
-<div align="center">
+<br/>
 
-> *"Especialista en garantizar que las cargas de trabajo sean seguras,*
-> *de alto rendimiento y eficientes en costos sobre AWS."*
+| 🎯 Especialidad | 🏗️ Framework | 🌍 Alcance |
+|:---:|:---:|:---:|
+| Cloud Architecture | AWS Well-Architected | Multi-Cloud |
+
+<br/>
+
+> *"Garantizando que las cargas de trabajo sean seguras, de alto rendimiento y eficientes en costos sobre AWS."*
 
 </div>
 
