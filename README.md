@@ -60,6 +60,26 @@ pasión:    Innovación tecnológica y mejora continua
 ---
 
 <!-- ============================================================ -->
+<!--               CERTIFICACIONES SOPHOS                         -->
+<!-- ============================================================ -->
+
+## 🔒 Certificaciones Sophos
+
+<div align="center">
+
+[![Sophos Firewall Architect](https://img.shields.io/badge/Sophos_Firewall_Architect-Certified-0066CC?style=for-the-badge&logo=sophos&logoColor=white)](https://www.sophos.com/en-us/partners/partner-portal)
+[![Sophos Endpoint Architect](https://img.shields.io/badge/Sophos_Endpoint_Architect-Certified-0066CC?style=for-the-badge&logo=sophos&logoColor=white)](https://www.sophos.com/en-us/partners/partner-portal)
+
+| Certificación | Emisor | Tipo |
+|:---|:---:|:---:|
+| Sophos Firewall Architect | Sophos | Instructor-Led + Labs |
+| Sophos Endpoint Architect | Sophos | Instructor-Led + Labs |
+
+</div>
+
+---
+
+<!-- ============================================================ -->
 <!--               BADGES DE ENTRENAMIENTO AWS                    -->
 <!-- ============================================================ -->
 
@@ -115,8 +135,9 @@ pasión:    Innovación tecnológica y mejora continua
 
 [![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://aws.amazon.com)
 
-**🔐 Acceso Remoto e Infraestructura**
+**🔐 Seguridad y Acceso Remoto**
 
+[![Sophos](https://img.shields.io/badge/Sophos-0066CC?style=for-the-badge&logo=sophos&logoColor=white)](https://www.sophos.com)
 [![TSPlus](https://img.shields.io/badge/TSPlus-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://tsplus.net)
 [![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white)](https://openvpn.net)
 
