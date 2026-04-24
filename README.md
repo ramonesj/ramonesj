@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:FF9900&height=220&section=header&text=José%20Ramones%20Moreno&fontSize=46&fontColor=ffffff&fontAlignY=40&desc=Arquitecto%20de%20Soluciones%20Cloud%20AWS&descAlignY=60&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:0078D4,60:00C7B7,100:FF9900&height=280&section=header&text=José%20Ramones%20Moreno&fontSize=48&fontColor=ffffff&fontAlignY=42&desc=☁️%20Cloud%20Solutions%20Architect%20%7C%20AWS%20%7C%20Google%20Cloud%20%7C%20Sophos&descAlignY=62&descSize=16&animation=twinkling&stroke=0078D4&strokeWidth=2" width="100%"/>
 
 <br/>
 
@@ -427,6 +427,6 @@ pasión:    Innovación tecnológica y mejora continua
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF9900,100:0078D4&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:FF9900,40:00C7B7,70:0078D4,100:0d1117&height=150&section=footer&animation=twinkling" width="100%"/>
 
 </div>
